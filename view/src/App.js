@@ -99,7 +99,7 @@ function ContactUs() {
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="app-container">
           <Header />
           <div className="fo-content-body">
