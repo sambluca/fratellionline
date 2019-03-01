@@ -1,0 +1,23 @@
+.fo-h1-wrapper {
+  margin: 0;
+}
+.fo-h1 {
+  color: white;
+  margin: 0;
+  margin-top: 5px;
+  display: block;
+  font-size: 30px;
+}
+
+.fo-header {
+  height: 76px;
+  display: grid;
+  grid-template-columns: 48% 52%;
+}
+
+.fo-header-container {
+  background-color: #1b246f;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
