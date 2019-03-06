@@ -1,5 +1,6 @@
 .fo-content-body {
   margin: 85px 7px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 754px) {

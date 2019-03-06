@@ -1,0 +1,38 @@
+.fo-title {
+  margin-bottom: 7px;
+  font-size: 25px;
+}
+
+.fo-title-wrapper {
+  display: block;
+}
+
+.fo-title-phone {
+  display: block;
+}
+
+.fo-title-phone_number {
+  font-weight: bold;
+  text-decoration: none; /* no underline */
+}
+
+.fo-title-phone_number_wrapper {
+  font-size: 20px;
+}
+
+.fo-title-phone_note {
+  color: dimgray;
+}
+@media screen and (min-width: 980px) {
+}
+
+@media screen and (min-width: 1045px) {
+  .fo-title-wrapper {
+    display: grid;
+    grid-template-columns: 15% 70%;
+  }
+
+  .fo-title {
+    margin-top: 0;
+  }
+}

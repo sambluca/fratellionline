@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import AboutUs from "./pages/about-us";
 import "./css/App.css";
-import Header from "./Header";
+import Header from "./header";
+import Footer from "./footer";
 
 const loremIpsum = () => (
   <p>
@@ -57,14 +59,14 @@ function Index(stuff) {
   );
 }
 
-function About() {
-  return (
-    <div>
-      <h2>About Us</h2>
-      {loremIpsum()}
-    </div>
-  );
-}
+// function About() {
+// return (
+//   <div>
+//     <h2>About Us</h2>
+//     {loremIpsum()}
+//   </div>
+// );
+// }
 
 function Users() {
   return <h2>Users</h2>;
@@ -104,11 +106,12 @@ class App extends Component {
           <Header />
           <div className="fo-content-body">
             <Route path="/" exact component={Index} />
-            <Route path="/about-us/" component={About} />
+            <Route path="/about-us/" component={AboutUs} />
             <Route path="/products/" component={Products} />
             <Route path="/american-crew-gift-sets/" component={GiftSets} />
             <Route path="/contact-us/" component={ContactUs} />
           </div>
+          <Footer />
         </div>
       </Router>
     );

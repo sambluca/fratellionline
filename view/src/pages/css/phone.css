@@ -1,0 +1,21 @@
+.fo-phone {
+  display: block;
+}
+
+.fo-phone_number {
+  font-weight: bold;
+  text-decoration: none; /* no underline */
+}
+
+.fo-phone_number_wrapper {
+  font-size: 20px;
+}
+
+.fo-phone_note {
+  color: #838383;
+}
+@media screen and (min-width: 980px) {
+}
+
+@media screen and (min-width: 1045px) {
+}
