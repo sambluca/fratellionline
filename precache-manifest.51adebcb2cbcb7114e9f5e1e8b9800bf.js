@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/fratellionline/static/js/runtime~main.21991be0.js"
   },
   {
-    "revision": "d16be0b679eff6eef169",
-    "url": "/fratellionline/static/js/main.d16be0b6.chunk.js"
+    "revision": "71797574c2312be60426",
+    "url": "/fratellionline/static/js/main.71797574.chunk.js"
   },
   {
     "revision": "00ed9d9373177398f88c",
     "url": "/fratellionline/static/js/2.00ed9d93.chunk.js"
   },
   {
-    "revision": "d16be0b679eff6eef169",
+    "revision": "71797574c2312be60426",
     "url": "/fratellionline/static/css/main.8f9026b7.chunk.css"
   },
   {
-    "revision": "f5442a8b8a656d79726a2a60fa90b3c4",
+    "revision": "83daa4989e5166b077506b1bc6355231",
     "url": "/fratellionline/index.html"
   }
 ];
