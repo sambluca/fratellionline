@@ -30,10 +30,6 @@
   .fo-h1 {
     text-align: left;
   }
-
-  .fo-h1-wrapper {
-    height: 60px;
-  }
 }
 
 @media screen and (min-width: 980px) {
@@ -45,10 +41,14 @@
     margin-left: 7px;
     height: 40px;
   }
+
+  .fo-header-menu{
+    margin-left: 100px;
+  }
 }
 
 
-@media screen and (min-width: 1045px) {
+@media screen and (min-width: 1130px) {
   .fo-h1-wrapper {
     height: 76px;
   }

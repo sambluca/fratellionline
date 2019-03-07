@@ -3,14 +3,24 @@
   margin-bottom: 10px;
 }
 
+.fo-page-grid-layout {
+  display: block;
+  margin: 10px 0;
+}
+
 @media screen and (min-width: 754px) {
   .fo-content-body {
-    margin: 64px 7px;
+    margin: 81px 7px;
   }
 }
 
 @media screen and (min-width: 980px) {
   .fo-content-body {
-    margin: 95px 7px;
+    margin: 95px 100px;
+  }
+
+  .fo-page-grid-layout {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 }

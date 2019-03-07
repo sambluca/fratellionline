@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import AboutUs from "./pages/about-us";
+import Home from "./pages/home";
 import "./css/App.css";
 import Header from "./header";
 import Footer from "./footer";
@@ -50,14 +51,14 @@ const loremIpsum = () => (
     tincidunt. Vivamus arcu leo, tempus at nisi nec, dictum commodo dui.
   </p>
 );
-function Index(stuff) {
-  return (
-    <div>
-      <h2>Home</h2>
-      {loremIpsum()}
-    </div>
-  );
-}
+// function Index(stuff) {
+//   return (
+//     <div>
+//       <h2>Home</h2>
+//       {loremIpsum()}
+//     </div>
+//   );
+// }
 
 // function About() {
 // return (
@@ -105,7 +106,7 @@ class App extends Component {
         <div className="app-container">
           <Header />
           <div className="fo-content-body">
-            <Route path="/" exact component={Index} />
+            <Route path="/" exact component={Home} />
             <Route path="/about-us/" component={AboutUs} />
             <Route path="/products/" component={Products} />
             <Route path="/american-crew-gift-sets/" component={GiftSets} />

@@ -22,16 +22,18 @@ class Header extends Component {
   render() {
     return (
       <span className="fo-header-container">
-        <div className="fo-header">
-          <HamburgerButton
-            clicked={this.state.menuOpen}
-            onClick={this.openMenu}
-          />
-          <div className="fo-h1-wrapper">
-            <h1 className="fo-h1">Fratelli Men's Hairdressing</h1>
+        <div className="fo-header-menu">
+          <div className="fo-header">
+            <HamburgerButton
+              clicked={this.state.menuOpen}
+              onClick={this.openMenu}
+            />
+            <div className="fo-h1-wrapper">
+              <h1 className="fo-h1">Fratelli Men's Hairdressing</h1>
+            </div>
           </div>
+          <Menu open={this.state.menuOpen} onClick={this.openMenu} />
         </div>
-        <Menu open={this.state.menuOpen} onClick={this.openMenu} />
       </span>
     );
   }

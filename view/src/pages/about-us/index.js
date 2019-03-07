@@ -1,15 +1,14 @@
 import React from "react";
 import Title from "../title";
-import InfoBox from "./info-box";
+import InfoBox from "../info-box";
 import brotherpicture from './images/antandlee.gif';
 
-import "./css/index.css";
 
 const AboutUs = props => {
   return (
     <div>
       <Title title="About Us" />
-      <div className="fo-about-us_info">
+      <div className="fo-page-grid-layout">
         <div className="fo-about-us_info-box">
           <InfoBox
             title="our philosophy is simple"

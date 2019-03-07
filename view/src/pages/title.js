@@ -6,7 +6,7 @@ import "./css/title.css";
 const Title = props => {
   return (
     <div className="fo-title-wrapper">
-      <h2 className="fo-title">{props.title}</h2>
+      <h1 className="fo-title">{props.title}</h1>
       <Phone />
     </div>
   );
