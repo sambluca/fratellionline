@@ -1,8 +1,8 @@
 import React from "react";
 import Title from "../title";
 import InfoBox from "../info-box";
-import brotherpicture from './images/antandlee.gif';
-
+import OpeningPrices from "../opening-price";
+import brotherpicture from "./images/antandlee.gif";
 
 const AboutUs = props => {
   return (
@@ -25,7 +25,11 @@ const AboutUs = props => {
               "We finally decided to use our combined knowledge and experience to open our own salon in 1997 as we felt that traditional “barber shops” were plentiful but men’s hair salons were few and far between."
             ]}
           />
-          <img title="Anthony & Lee Tramontana" src={brotherpicture} alt="Anthony & Lee Tramontana" />
+          <img
+            title="Anthony & Lee Tramontana"
+            src={brotherpicture}
+            alt="Anthony & Lee Tramontana"
+          />
         </div>
         <div className="fo-about-us_info-box">
           <InfoBox
@@ -61,6 +65,7 @@ const AboutUs = props => {
           />
         </div>
       </div>
+      <OpeningPrices />
     </div>
   );
 };
