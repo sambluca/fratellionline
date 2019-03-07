@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fratellionline/precache-manifest.2a403671e98fd9ab6f2f3e0c71cc1168.js"
+  "/fratellionline/precache-manifest.9444c04452c69c8f236483f849c4541e.js"
 );
 
 workbox.clientsClaim();
