@@ -32,7 +32,7 @@ const AboutUs = props => {
           <InfoBox
             title="our name means"
             text={[
-              "'Fratelli' is the Italian word for 'Brothers'. We chose this name for our business for the following reasons."
+              "'Fratelli' is the Italian word for 'Brothers'. We chose this name for our business for the following reasons:"
             ]}
             bulletPoints={[
               "We are brothers",
