@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import AboutUs from "./pages/about-us";
 import Home from "./pages/home";
+import ContactUs from "./pages/contact-us";
 import "./css/App.css";
 import Header from "./header";
 import Footer from "./footer";
@@ -91,14 +92,14 @@ function GiftSets() {
   );
 }
 
-function ContactUs() {
-  return (
-    <div>
-      <h2>Contact Us</h2>
-      {loremIpsum()}
-    </div>
-  );
-}
+// function ContactUs() {
+//   return (
+//     <div>
+//       <h2>Contact Us</h2>
+//       {loremIpsum()}
+//     </div>
+//   );
+// }
 class App extends Component {
   render() {
     return (
